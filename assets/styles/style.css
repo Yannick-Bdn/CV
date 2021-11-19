@@ -67,6 +67,19 @@ body>div>div>div{
 #nom .age{
     font-size: 0.5em;
 }
+#nom .download{
+    font-size: 0.4em;
+    background-color: rgba(37, 96, 155,0.8);
+    padding : 1%;
+    border : 2px solid rgb(37, 96, 155);
+    border-radius: 15px;
+    transition-duration: 0.25s;
+}
+#nom .download:hover{
+    background-color: rgba(37, 96, 155,1);
+    transition-duration: 0.25s;
+}
+
 
 @media screen and (max-width: 500px) {
     .textOverImage{
